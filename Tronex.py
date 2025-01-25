@@ -1,5 +1,5 @@
 import os, sys
 try:
-    import("trone").menu()
+    __import__("trone").menu()
 except Exception as e:
     exit(str(e))
